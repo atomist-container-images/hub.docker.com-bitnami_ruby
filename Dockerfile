@@ -1,5 +1,5 @@
-# Tags: 3.0.4-debian-10-r19, 3.0.4, 3.0-debian-10, 3.0
-FROM bitnami/ruby:3.0.4-debian-10-r19
+# Tags: 3.0.4-debian-10-r20, 3.0.4, 3.0-debian-10, 3.0
+FROM bitnami/ruby:3.0.4-debian-10-r20
 FROM bitnami/ruby:3.0.4
 FROM bitnami/ruby:3.0-debian-10
 FROM bitnami/ruby:3.0
@@ -7,24 +7,36 @@ FROM bitnami/ruby:3.0
 # Tags: _
 FROM bitnami/ruby:_
 
-# Tags: 2.7.6-debian-10-r19, 2.7.6, 2.7-debian-10, 2.7
-FROM bitnami/ruby:2.7.6-debian-10-r19
-FROM bitnami/ruby:2.7.6
-FROM bitnami/ruby:2.7-debian-10
-FROM bitnami/ruby:2.7
-
-# Tags: 2.6.10-debian-10-r19, 2.6.10, 2.6-debian-10, 2.6
-FROM bitnami/ruby:2.6.10-debian-10-r19
+# Tags: 2.6.10-debian-10-r20, 2.6.10, 2.6-debian-10, 2.6
+FROM bitnami/ruby:2.6.10-debian-10-r20
 FROM bitnami/ruby:2.6.10
 FROM bitnami/ruby:2.6-debian-10
 FROM bitnami/ruby:2.6
 
-# Tags: latest, 3.1.2-debian-10-r19, 3.1.2, 3.1-debian-10, 3.1
+# Tags: 2.7.6-debian-10-r20, 2.7.6, 2.7-debian-10, 2.7
+FROM bitnami/ruby:2.7.6-debian-10-r20
+FROM bitnami/ruby:2.7.6
+FROM bitnami/ruby:2.7-debian-10
+FROM bitnami/ruby:2.7
+
+# Tags: latest, 3.1.2-debian-10-r20, 3.1.2, 3.1-debian-10, 3.1
 FROM bitnami/ruby:latest
-FROM bitnami/ruby:3.1.2-debian-10-r19
+FROM bitnami/ruby:3.1.2-debian-10-r20
 FROM bitnami/ruby:3.1.2
 FROM bitnami/ruby:3.1-debian-10
 FROM bitnami/ruby:3.1
+
+# Tags: 3.0.4-debian-10-r19
+FROM bitnami/ruby:3.0.4-debian-10-r19
+
+# Tags: 2.7.6-debian-10-r19
+FROM bitnami/ruby:2.7.6-debian-10-r19
+
+# Tags: 2.6.10-debian-10-r19
+FROM bitnami/ruby:2.6.10-debian-10-r19
+
+# Tags: 3.1.2-debian-10-r19
+FROM bitnami/ruby:3.1.2-debian-10-r19
 
 # Tags: 3.0.4-debian-10-r18
 FROM bitnami/ruby:3.0.4-debian-10-r18
@@ -365,6 +377,3 @@ FROM bitnami/ruby:2.6.9-debian-10-r129
 
 # Tags: 3.0.3-debian-10-r127
 FROM bitnami/ruby:3.0.3-debian-10-r127
-
-# Tags: 3.1.1-debian-10-r41
-FROM bitnami/ruby:3.1.1-debian-10-r41
